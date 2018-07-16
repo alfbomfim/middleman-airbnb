@@ -37,13 +37,19 @@
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: #616668;
+  // color: #616668;
+  color: $my-gray;
   font-size: 14px;
+  &:hover {
+    color: $my-blue;
+    text-decoration: none;
+  }
 }
-.navbar-wagon-link:hover {
-  color: #da552f;
-  text-decoration: none;
-}
+// .navbar-wagon-link:hover {
+//   // color: #da552f;
+//   color: $my-blue;
+//   text-decoration: none;
+// }
 
 /* Dropdown menu */
 .navbar-wagon-dropdown-menu {
